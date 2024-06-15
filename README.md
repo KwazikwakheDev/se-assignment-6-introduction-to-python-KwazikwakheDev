@@ -191,10 +191,10 @@ print(math.pi)         # Output: 3.141592653589793 (value of pi)
 
 10. File I/O:
     - How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
-   - To read from a file in Python, you typically follow these steps:
-    - Open the File: Use the open() function to open the file in read mode ('r').
-    - Read the File Content: Use methods like read(), readline(), or readlines() to read the content.
-    - Close the File: Always close the file using the close() method to free up system resources
+   -  - To read from a file in Python, you typically follow these steps:
+   -  - Open the File: Use the open() function to open the file in read mode ('r').
+   -  - Read the File Content: Use methods like read(), readline(), or readlines() to read the content.
+   -  - Close the File: Always close the file using the close() method to free up system resources
 
     <prev>
     ''' python
