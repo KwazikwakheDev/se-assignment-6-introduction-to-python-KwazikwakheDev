@@ -10,14 +10,79 @@ Answer the following questions based on your understanding of Python programming
 1. Python Basics:
    - What is Python, and what are some of its key features that make it popular among developers? Provide examples of use cases where Python is particularly effective.
 
+   - Python is a high-level, interpreted programming language known for its simplicity and readability, which makes it accessible to both beginners and experienced developers.
+   - Python is easy to read,write and it is interpreted language.
+   - The language is dynamically typed and support multiple pradigms.
+   - Python can be used for web development, data science and Machine learning.
+   - Its can also be used for Software Development and Game development.
+
+
 2. Installing Python:
    - Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
 
+   Windows:
+   - Download Python installer from www.python.com
+   - Run the installer and select "Add Python to PATH" during installation.
+   - Click "Install Now" and Python will be installed.
+
+   macOS:
+   - Install Homebrew if not already installed: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   - Install Python using Homebrew: brew install python.
+
+   Linux(Ubuntu/Debian):
+   - Open terminal and update package list: sudo apt update.
+   - Install Python: sudo apt install python3.
+
+   Verifying Installations:
+   - Open terminal or command prompt.
+   - Type python --version or python3 --version.
+   - Verify the Python version displayed matches the installed version.
+
+   Setting Up a Virtual Environment
+   Using venv which is built in module in Python 3
+   - Open terminal or command prompt.
+   - Create a new directory for your project: mkdir myproject && cd myproject.
+   - Create a virtual environment in windows use the command python -m venv env.
+   - In macOs/Linux a command python3 -m venv env..
+
+
 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
+    
+    - print("Hello, World!")
+    - The print() function in Python is used to output data to the console. Here, it prints the string "Hello, World!"
+    -In Python, strings are sequences of characters enclosed in either single ' or double " quotes. They represent textual data and can include letters, numbers, and special characters.
 
 4. Data Types and Variables:
    - List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
+
+   - Python Supports several basic data types which include:
+   - Integer (int): Whole numbers without any decimal point.
+   - Float (float): Numbers that have a decimal point or use scientific notation.
+   - String (str): Ordered sequence of characters enclosed in single or double quotes.
+   - Boolean (bool): Represents truth values True or False.
+   - NoneType (None): Represents the absence of a value or a null value.
+   <pre>
+   '''python
+         # Integer variable
+             num1 = 42
+
+         # Float variable
+             num2 = 3.14
+         # String variable
+              message = "Hello, Python!"
+
+         # Boolean variables
+             is_python_fun = True
+            is_learning = False
+
+         # NoneType variable
+           nothing_here = None
+   
+   '''
+
+   </pre>
+
 
 5. Control Structures:
    - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
