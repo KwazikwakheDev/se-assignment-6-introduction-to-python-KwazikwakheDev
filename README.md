@@ -100,7 +100,7 @@ List and describe the basic data types in Python. Write a short script that demo
    - Loops allow you to execute a block of code multiple times. The most common types of loops in Python are for loops and while loops.
 
 **Example Code Snippet:**
-<pre>
+<prev>
    '''
    #Conditionals
     if condition:
