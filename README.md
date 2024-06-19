@@ -95,13 +95,13 @@ List and describe the basic data types in Python. Write a short script that demo
 
 
 5. Control Structures:
-   - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
+   - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and `for` loop.
    - Conditional statements allow you to execute code based on certain conditions. The primary conditional statement in Python is the if-else statement.
    - Loops allow you to execute a block of code multiple times. The most common types of loops in Python are for loops and while loops.
 
 **Example Code Snippet:**
 <pre>
-   ''
+   '''
    #Conditionals
     if condition:
     # Code to execute if condition is True
@@ -126,7 +126,7 @@ else:
 
    for fruit in fruits:
        print(f"I like {fruit}")
-
+'''
 </prev>
 
 6. Functions in Python:
@@ -148,6 +148,7 @@ Describe the differences between lists and dictionaries in Python. Write a scrip
 
 **Example Code Snippet:**
 <prev>
+ '''
         try:
                 # Code that might raise an exception
             x = int(input("Enter a number: "))
@@ -172,7 +173,7 @@ Describe the differences between lists and dictionaries in Python. Write a scrip
         finally:
             # Optional cleanup code executed regardless of exceptions
             print("Execution complete.")
-
+ '''
 </prev>
 
 
