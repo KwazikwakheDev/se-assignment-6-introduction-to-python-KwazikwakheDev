@@ -47,14 +47,14 @@ Answer the following questions based on your understanding of Python programming
 
 
 3. Python Syntax and Semantics:
-   - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
-    
-    - print("Hello, World!")
-    - The print() function in Python is used to output data to the console. Here, it prints the string "Hello, World!"
-    -In Python, strings are sequences of characters enclosed in either single ' or double " quotes. They represent textual data and can include letters, numbers, and special characters.
+Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
+
+- print("Hello, World!")
+- The print() function in Python is used to output data to the console. Here, it prints the string "Hello, World!"
+- In Python, strings are sequences of characters enclosed in either single ' or double " quotes. They represent textual data and can include letters, numbers, and special characters.
 
 4. Data Types and Variables:
-   - List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
+List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
 
    - Python Supports several basic data types which include:
    - Integer (int): Whole numbers without any decimal point.
@@ -63,7 +63,8 @@ Answer the following questions based on your understanding of Python programming
    - Boolean (bool): Represents truth values True or False.
    - NoneType (None): Represents the absence of a value or a null value.
 
-   <pre>
+**Example Code Snippet:**
+<pre>
    '''
          # Integer variable
              num1 = 42
@@ -89,7 +90,7 @@ Answer the following questions based on your understanding of Python programming
             print(f"nothing_here: {nothing_here}, type: {type(nothing_here)}")
    
    '''
-   </pre>
+</pre>
 
 
 
@@ -97,7 +98,9 @@ Answer the following questions based on your understanding of Python programming
    - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
    - Conditional statements allow you to execute code based on certain conditions. The primary conditional statement in Python is the if-else statement.
    - Loops allow you to execute a block of code multiple times. The most common types of loops in Python are for loops and while loops.
-   <pre>
+
+**Example Code Snippet:**
+<pre>
    ''
    #Conditionals
     if condition:
@@ -108,9 +111,9 @@ else:
    Example of Conditionals
    number = 10
 
-if number > 0:
+ if number > 0:
     print("Positive number")
-else:
+ else:
     print("Non-positive number")
 
 
@@ -120,19 +123,20 @@ else:
 
     #Example
     fruits = ["apple", "banana", "cherry"]
+
    for fruit in fruits:
        print(f"I like {fruit}")
 
-   </prev>
+</prev>
 
 6. Functions in Python:
-   - What are functions in Python, and why are they useful? Write a Python function that takes two arguments and returns their sum. Include an example of how to call this function.
+ What are functions in Python, and why are they useful? Write a Python function that takes two arguments and returns their sum. Include an example of how to call this function.
 
   - Functions in Python are blocks of organized, reusable code designed to perform a specific task. They allow you to break down your program into smaller, manageable parts, making your code more modular, readable, and easier to maintain
   - 
 
 7. Lists and Dictionaries:
-   - Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
+Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
 
    - Lists are ordered collections of items accessed by index, ideal for sequences where the order matters.
    - Dictionaries are unordered collections of key-value pairs, accessed by keys, suitable for mapping relationships between data.
@@ -141,81 +145,94 @@ else:
 8. Exception Handling:
    - What is exception handling in Python? Provide an example of how to use `try`, `except`, and `finally` blocks to handle errors in a Python script.
    - Exception handling in Python is the mechanism that allows you to handle and respond to errors or exceptional situations that occur during the execution of a program. Exceptions are errors that disrupt the normal flow of the program, and handling them gracefully can prevent crashes and improve program robustness.
-   <prev>
-          try:
-         # Code that might raise an exception
-    x = int(input("Enter a number: "))
-    y = 10 / x
 
-   except ZeroDivisionError:
-        # Handle specific exception (division by zero)
-    print("Error: Cannot divide by zero!")
+**Example Code Snippet:**
+<prev>
+        try:
+                # Code that might raise an exception
+            x = int(input("Enter a number: "))
+            y = 10 / x
 
-except ValueError:
-      # Handle specific exception (invalid conversion to int)
-    print("Error: Invalid input! Please enter a valid number.")
+        except ZeroDivisionError:
+                # Handle specific exception (division by zero)
+            print("Error: Cannot divide by zero!")
 
-except Exception as e:
-     # Catch-all for any other exceptions
-    print(f"An error occurred: {e}")
+        except ValueError:
+            # Handle specific exception (invalid conversion to int)
+            print("Error: Invalid input! Please enter a valid number.")
 
-else:
-    # Executed if no exception occurs
-    print(f"The result is: {y}")
+        except Exception as e:
+            # Catch-all for any other exceptions
+            print(f"An error occurred: {e}")
 
-finally:
-    # Optional cleanup code executed regardless of exceptions
-    print("Execution complete.")
+        else:
+            # Executed if no exception occurs
+            print(f"The result is: {y}")
 
-   </prev>
+        finally:
+            # Optional cleanup code executed regardless of exceptions
+            print("Execution complete.")
+
+</prev>
 
 
 9. Modules and Packages:
-   - Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the `math` module.
+Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the `math` module.
    - Modules in Python are files containing Python definitions (functions, classes, variables) and statements.
    -  Packages are a way of structuring Python's module namespace by using "dotted module names". A package is a directory containing Python modules and an __init__.py file to indicate that the directory should be treated as a package.
 
 
+**Example Code Snippet:**
    <prev>
         # Importing the math module
          import math
 
-
          # Using functions from the math module
-print(math.sqrt(16))   # Output: 4.0 (square root)
-print(math.pow(2, 3))  # Output: 8.0 (2 raised to the power of 3)
-print(math.pi)         # Output: 3.141592653589793 (value of pi)
-
-
+         print(math.sqrt(16))   # Output: 4.0 (square root)
+         print(math.pow(2, 3))  # Output: 8.0 (2 raised to the power of 3)
+         print(math.pi)         # Output: 3.141592653589793 (value of pi)
    </prev>
 
 10. File I/O:
-    - How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
-   -  - To read from a file in Python, you typically follow these steps:
-   -  - Open the File: Use the open() function to open the file in read mode ('r').
-   -  - Read the File Content: Use methods like read(), readline(), or readlines() to read the content.
-   -  - Close the File: Always close the file using the close() method to free up system resources
+ How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
+- To read from a file in Python, you typically follow these steps:
+- Open the File: Use the open() function to open the file in read mode ('r').
+- Read the File Content: Use methods like read(), readline(), or readlines() to read the content.
+- Close the File: Always close the file using the close() method to free up system resources
 
+**Example Code Snippet:**
     <prev>
     ''' python
          # Example script to read and print the content of a file
 
         # Open the file in read mode
        file_path = 'sample.txt'  # Replace with your file path
- try:
-     with open(file_path, 'r') as file:
+      try:
+       with open(file_path, 'r') as file:
         content = file.read()
         print(content)
-except FileNotFoundError:
-    print(f"Error: File '{file_path}' not found.")
-except IOError:
-     print(f"Error: Unable to read from file '{file_path}'.")
-     
-'''
+        except FileNotFoundError:
+        print(f"Error: File '{file_path}' not found.")
+      except IOError:
+         print(f"Error: Unable to read from file '{file_path}'.")
+    '''
 </prev>
 
-- To write to a file in Python, follow these steps:
-- - 
+To write to a file in Python, follow these steps:
+- Open the File: Use the open() function with the appropriate mode ('w' for writing, 'a' for appending, etc.).
+- Write to the File: Use the write() method of the file object to write data to the file.
+- Close the File: Always close the file to save changes and free up resources.
+
+- **Example Code Snippet:**
+<prev>
+```python
+ # Step 1: Open the file (create it if it doesn't exist)
+ with open('output.txt', 'w') as file:
+     # Step 2: Write to the file
+     file.write('Hello, this is a sample text!\n')
+     file.write('Writing to files in Python is simple.\n')
+ # Step 3: File automatically closed when exiting the 'with' block
+</prev>
 
 
 # Submission Guidelines:
