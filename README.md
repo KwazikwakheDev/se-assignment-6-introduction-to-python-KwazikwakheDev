@@ -101,32 +101,32 @@ List and describe the basic data types in Python. Write a short script that demo
 
 **Example Code Snippet:**
 <prev>
-   '''
-   #Conditionals
-    if condition:
-    # Code to execute if condition is True
-else:
-    # Code to execute if condition is False
+            '''
+            #Conditionals
+                if condition:
+                # Code to execute if condition is True
+            else:
+                # Code to execute if condition is False
 
-   Example of Conditionals
-   number = 10
+            Example of Conditionals
+            number = 10
 
- if number > 0:
-    print("Positive number")
- else:
-    print("Non-positive number")
+            if number > 0:
+                print("Positive number")
+            else:
+                print("Non-positive number")
 
 
-   #Example of for Loop
-   for variable in sequence:
-    # Code to execute for each item in the sequence
+            #Example of for Loop
+            for variable in sequence:
+                # Code to execute for each item in the sequence
 
-    #Example
-    fruits = ["apple", "banana", "cherry"]
+                #Example
+                fruits = ["apple", "banana", "cherry"]
 
-   for fruit in fruits:
-       print(f"I like {fruit}")
-'''
+            for fruit in fruits:
+                print(f"I like {fruit}")
+            '''
 </prev>
 
 6. Functions in Python:
@@ -184,7 +184,7 @@ Explain the concepts of modules and packages in Python. How can you import and u
 
 
 **Example Code Snippet:**
-   <prev>
+<prev>
         # Importing the math module
          import math
 
@@ -192,7 +192,7 @@ Explain the concepts of modules and packages in Python. How can you import and u
          print(math.sqrt(16))   # Output: 4.0 (square root)
          print(math.pow(2, 3))  # Output: 8.0 (2 raised to the power of 3)
          print(math.pi)         # Output: 3.141592653589793 (value of pi)
-   </prev>
+</prev>
 
 10. File I/O:
  How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
@@ -202,7 +202,7 @@ Explain the concepts of modules and packages in Python. How can you import and u
 - Close the File: Always close the file using the close() method to free up system resources
 
 **Example Code Snippet:**
-    <prev>
+<prev>
     ''' python
          # Example script to read and print the content of a file
 
@@ -227,12 +227,12 @@ To write to a file in Python, follow these steps:
 - **Example Code Snippet:**
 <prev>
 ```python
- # Step 1: Open the file (create it if it doesn't exist)
- with open('output.txt', 'w') as file:
-     # Step 2: Write to the file
-     file.write('Hello, this is a sample text!\n')
-     file.write('Writing to files in Python is simple.\n')
- # Step 3: File automatically closed when exiting the 'with' block
+        # Step 1: Open the file (create it if it doesn't exist)
+         with open('output.txt', 'w') as file:
+            # Step 2: Write to the file
+            file.write('Hello, this is a sample text!\n')
+            file.write('Writing to files in Python is simple.\n')
+            # Step 3: File automatically closed when exiting the 'with' block
 </prev>
 
 
