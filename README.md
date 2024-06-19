@@ -150,12 +150,12 @@ Describe the differences between lists and dictionaries in Python. Write a scrip
 <prev>
  '''
         try:
-                # Code that might raise an exception
+            # Code that might raise an exception
             x = int(input("Enter a number: "))
             y = 10 / x
 
         except ZeroDivisionError:
-                # Handle specific exception (division by zero)
+            # Handle specific exception (division by zero)
             print("Error: Cannot divide by zero!")
 
         except ValueError:
@@ -229,10 +229,11 @@ To write to a file in Python, follow these steps:
 ```python
         # Step 1: Open the file (create it if it doesn't exist)
          with open('output.txt', 'w') as file:
-            # Step 2: Write to the file
+        # Step 2: Write to the file
             file.write('Hello, this is a sample text!\n')
             file.write('Writing to files in Python is simple.\n')
-            # Step 3: File automatically closed when exiting the 'with' block
+        # Step 3: File automatically closed when exiting the 'with' block
+'''
 </prev>
 
 
